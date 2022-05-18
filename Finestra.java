@@ -6,13 +6,12 @@ public class Finestra {
     public static void main(String[] args) {
 
 
-        int width = 700;
-        int height = 500;
+        int width = 900;
+        int height = 600;
 
         JFrame f = new JFrame();
 
-        Cerchio c = new Cerchio(100,150);
-        //Rettangolo r = new Rettangolo(100, 150);
+        Poligoni c = new Poligoni(width,height);
 
         f.add(c);
 
@@ -23,7 +22,7 @@ public class Finestra {
 
 
 
-        f.add(r);
+        f.add(c);
 
 
 
