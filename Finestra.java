@@ -15,14 +15,10 @@ public class Finestra {
 
         f.add(c);
 
-
         f.setSize(width, height);
 
         f.setTitle("Grafica");
 
-
-
-        f.add(c);
 
 
 
