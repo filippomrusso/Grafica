@@ -19,10 +19,9 @@ public class Nuvole extends JComponent {
     }
 
 
-    public void paintR(Graphics g){
+    void paintR(Graphics g){
 
         Graphics2D g2d = (Graphics2D) g;
-        g2d.setRenderingHints(antiAliasing());
 
         Ellipse2D.Double[] cerchi = new Ellipse2D.Double[5];
 
@@ -38,7 +37,7 @@ public class Nuvole extends JComponent {
             g2d.fill(cerchi[i]);
         }
 
-
+        g2d.setRenderingHints(antiAliasing());
 
 
 

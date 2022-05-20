@@ -11,7 +11,7 @@ public class Finestra {
 
         JFrame f = new JFrame();
 
-        Poligoni c = new Poligoni(width,height);
+        Scenario c = new Scenario(width,height);
 
         f.add(c);
 
